@@ -4,10 +4,8 @@
 ## Getting started
 
 `$ npm install react-native-jwt2 --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-jwt2`
+or
+`$ yarn add react-native-jwt2 --save`
 
 ## Usage
 ```javascript
