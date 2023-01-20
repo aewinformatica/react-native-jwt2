@@ -1,1 +1,26 @@
+
 # react-native-jwt2
+
+## Getting started
+
+`$ npm install react-native-jwt2 --save`
+
+### Mostly automatic installation
+
+`$ react-native link react-native-jwt2`
+
+## Usage
+```javascript
+import {decodeToken, isExpired} from 'react-native-jwt2';
+
+  const token =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.AcYwv-HS6Xo11mDHtOZLjdTGci2wJ146IKiHj0JEH1k';
+
+  const decodedToken = decodeToken(token);
+  console.log('decoded:', decodedToken);
+  console.log('expired?', isExpired(token));
+
+
+
+```
+  
