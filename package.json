@@ -1,6 +1,6 @@
 {
   "name": "react-native-jwt2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   ],
   "author": "Wagner G Jesus",
   "license": "",
+  "repository":"https://github.com/aewinformatica/react-native-jwt2",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
